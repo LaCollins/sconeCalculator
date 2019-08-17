@@ -6,10 +6,16 @@ const cinn = 'Cinnamon Chips: ';
 const or = 'Orange Zest: ';
 const ap = 'Apple Filling: ';
 
-var heavyCreaLS;
-var heavyCreamSS;
-var mixLS;
-var mixSS;
-var additiveLS;
-var additiveSS;
+let largeSconeQuantity;
 
+let heavyCreaLS;
+let heavyCreamSS;
+let mixLS;
+let mixSS;
+let additiveLS;
+let additiveSS;
+
+function recipe() {
+    largeSconeQuantity =  document.getElementById('largeScone').value;
+    console.log(largeSconeQuantity);
+}
