@@ -9,6 +9,36 @@
         <header class='sconeHeader'>
             <h1>Scone Recipe Calculator</h1>
         </header>
+    
+    <div class='instructions'>
+        <p><strong>NOTE:</strong> Mini Scone Pack Quantity <strong>will calculate</strong> 6 mini blueberry scones <em>per pack</em> and 3 mini orange scones <em>per pack</em>.</p>
+        <p>Any value added to the cinnamon scone mini scones will calculate for 3.</p>
+    </div>
+
+    <form>
+        <div class='form-row'>
+                <label for='largeScone'>Large Scone Quantity: </label><input type='text' id='largeScone' /> 
+        </div>
+
+        <div class='form-row'>
+                <label for='smallScone'>Mini Scone <strong>Pack</strong> Quantitiy: </label> <input type='text' id='smallScone' />
+        </div>
+
+        <div class='form row'>
+                <input class='button' type='button' onClick='Blueberry()' Value='Blueberry Scones' />
+                <input class='button' type='button' onClick='Cinnamon()' Value='Cinnamon Scones' />
+                <input class='button' type='button' onClick='Orange()' Value='Orange Scones' />
+                <input class='button' type='button' onClick='Apple()' Value='Apple Scones' />    
+        </div>
+
+    </form>
+    <h2>Recipe</h2>
+
+    <div class='recipe'>
+        <div class='cream'><span id = "cream"></span></div>
+        <div class='mix'><span id = "mix"></span></div>
+        <div class='ingredient'><span id = "ingredient"></span></div>
+    </div>
 
         <script src='code.js'></script>
     </body>
